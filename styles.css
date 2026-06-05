@@ -1,0 +1,115 @@
+/*FIRST SETTINGS*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+/*HEADER*/
+
+.header-container {
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 69px;
+    justify-content: flex-start;
+}
+
+.tea-cozy-logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.menu-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1.65em;
+    justify-content: flex-end;
+    list-style: none;
+    margin-left: 30em;
+    margin-right: 10px;
+}
+
+.menu-links {
+    color: seashell;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+/*MISSION SECTION*/
+
+h2, h4 {
+    margin: 0.4em auto;
+    text-align: center;
+}
+
+.mission-container {
+    align-items: center;
+    background-image: url(assets/img-mission-background.jpg);
+    display: flex;
+    flex-flow: row nowrap;
+    height: 700px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.banner-container {
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    flex-flow: row wrap;
+    opacity: 0.9;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+
+/*FEATURED TEA SECTION*/
+
+.featured-tea {
+    margin-top: 3.4em;
+}
+
+.featured-tea-heading{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.flexbox-grid {
+    align-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.featured-tea-images-container {
+    align-content: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex: 0 0 calc(33.333% - 0.33em);
+}
+
+.featured-tea-images {
+    height: 200px;
+    margin: auto;
+    width: 300px;
+}
+
+.tea-label {
+    padding: 10px 0 25px 0;
+}
