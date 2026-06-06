@@ -20,7 +20,7 @@ body {
     align-items: center;
     border-bottom: 1px solid seashell;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     height: 69px;
     justify-content: flex-start;
 }
@@ -33,10 +33,10 @@ body {
 .menu-container {
     display: flex;
     flex-flow: row wrap;
-    gap: 1.65em;
+    gap: 1.75em;
     justify-content: flex-end;
     list-style: none;
-    margin-left: 30em;
+    margin-left: 29.2em;
     margin-right: 10px;
 }
 
@@ -87,7 +87,7 @@ h2, h4 {
     text-align: center;
 }
 
-.flexbox-grid {
+.flexbox-grid-featured-teas {
     align-content: center;
     display: flex;
     flex-flow: row wrap;
@@ -112,4 +112,83 @@ h2, h4 {
 
 .tea-label {
     padding: 10px 0 25px 0;
+}
+
+
+/*LOCATIONS SECTION*/
+
+.locations-container {
+    align-items: center;
+    background-size: cover;
+    background-image: url(assets/img-locations-background.jpg);
+    background-position: center 1%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    min-height: 570px;
+    margin: 1.75em auto;
+    padding-top: 2.66em;
+    width: 1200px;
+}
+
+.locations-heading {
+    margin-bottom: 15px;
+}
+
+.flexbox-grid-locations {
+    align-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+.locations-background-items {
+    align-items: center;
+    background-color: black;
+    border-radius: 2px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 0 0 300px;
+    height: 300px;
+    justify-content: center;
+    opacity: 1;
+}
+
+h3 {
+    margin: 0 auto;
+}
+
+.locations-text-items {
+    line-height: 1.75em;
+}
+
+
+/*FOOTER SECTION*/
+
+.contact-container {
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 200px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+.contact-heading {
+    margin: 0 auto 1.5em auto;
+}
+
+.contact-content {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.copyright-heading {
+    margin-left: 20px;
+    text-align: left;
+    width: 100%;
 }
