@@ -1,5 +1,3 @@
-
-Readme · MD
 # 📌 Tea Cozy Project
  
 ## 📖 1. Project Overview
